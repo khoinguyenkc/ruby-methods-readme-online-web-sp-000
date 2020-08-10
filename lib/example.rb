@@ -15,3 +15,9 @@ def say_hello_world_ten_times
 end
 
 say_hello_world_ten_times
+
+def hello(one,two)
+  puts "#{one} and #{two}"
+end
+
+hello("a","b")
